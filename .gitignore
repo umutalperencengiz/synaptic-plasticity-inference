@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[codz]
+*$py.class
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.idea/
+.vscode/
+.cursorignore
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Experiment outputs
+results/
+outputs/
+*.log
+
+# Large artifacts — keep models out of git; publish them as Release assets
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
