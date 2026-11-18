@@ -8,7 +8,7 @@ The method parameterises a synaptic plasticity rule as either a truncated Taylor
 (81 coefficients) or a small MLP, then optimises those parameters with backpropagation-through-time
 so that the simulated circuit reproduces observed neural activity or behaviour.
 
-![Recovered plasticity rule](figures/figure2.png)
+![Recovered plasticity rule](figures/figure1.png)
 
 ## What is implemented
 
