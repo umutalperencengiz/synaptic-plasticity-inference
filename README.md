@@ -100,15 +100,18 @@ results:
 - MLP rule: leaky-ReLU hidden layer, `tanh` output, all parameters initialised at scale `0.01`.
 - Expected reward initialised to `0` (not `0.5`).
 
-## Authors
+## Authors & contributions
 
-This was a joint course project by:
+Joint course project (Graphical Network Models / GNN course, Heidelberg University) by:
 
-- **Irmak Erkol**
-- **Umut Alperen Cengiz**
-- **Ertugrul Taparci**
+| Author | Contribution |
+| --- | --- |
+| **Umut Alperen Cengiz** | `circuit_model.py`, `data_generation.py` (synthetic trajectory generation), `run_ojas_recovery.py` (Experiment 1 pipeline + Figure 2), and the Taylor/MLP/fly plasticity parameterisations in `src/plasticity_rules.py` |
+| Irmak Erkol | `src/network.py` (vectorised forward simulation), behavioural and fly experiments, appendix figures and tables, Colab runner |
+| Ertugrul Taparci | Project collaboration and analysis |
 
 Original shared repository: [irmakerkol/Model-Based-Inference-of-Synaptic-Plasticity-Rules](https://github.com/irmakerkol/Model-Based-Inference-of-Synaptic-Plasticity-Rules).
+This copy is maintained by Umut Alperen Cengiz.
 
 ## Citation
 
